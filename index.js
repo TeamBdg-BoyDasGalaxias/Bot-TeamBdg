@@ -18,7 +18,7 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '📍D4RKBOT📍',
+    A187: 'TEAMBDG 💰',
     instagram: 'https://www.instagram.com/_teambdg_/',
     nomer: 'wa.me/554191232721',
     aktif: '24 JAM',
@@ -27,11 +27,13 @@ const config = {
     Telegram: 'https://t.me/TEAMBDG',
     Site: 'teambdg.ga',
     whatsapp: 'wa.me/554191232721',
-    tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
+    tanggal: `Data: ${moment().format('d')} ${bulan} ${moment().format('Y')}`,
     waktu: time
-}
+    $ip: $_SERVER["REMOTE_ADDR"];
+    
 
-const { A187, tanggal, waktu, instagram, whatsapp, youtube, nomer, Telegram, Twitter, Site, aktif, ontime } = config
+
+const { A187, tanggal, waktu, instagram, whatsapp, youtube, nomer, Telegram, Twitter, $ip, Site, aktif, ontime } = config
 
 const
 {
@@ -99,6 +101,7 @@ const {
     infogempa,
     indohot,
     loli,
+    gtts,
     ttp,
     map,
     waifu
