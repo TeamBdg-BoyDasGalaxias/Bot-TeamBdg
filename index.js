@@ -29,7 +29,7 @@ const config = {
     whatsapp: 'wa.me/554191232721',
     tanggal: `Data: ${moment().format('d')} ${bulan} ${moment().format('Y')}`,
     waktu: time
-    $ip:
+   
     
 
 
