@@ -27,7 +27,7 @@ const config = {
     Telegram: 'https://t.me/TEAMBDG',
     Site: 'teambdg.ga',
     whatsapp: 'wa.me/554191232721',
-    tanggal: `Data: ${moment().format('d')} ${bulan} ${moment().format('Y')}`,
+    tanggal: `Data: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
    
     
