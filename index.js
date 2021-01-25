@@ -29,11 +29,11 @@ const config = {
     whatsapp: 'wa.me/554191232721',
     tanggal: `Data: ${moment().format('d')} ${bulan} ${moment().format('Y')}`,
     waktu: time
-    $ip: $_SERVER["REMOTE_ADDR"];
+    $ip:
     
 
 
-const { A187, tanggal, waktu, instagram, whatsapp, youtube, nomer, Telegram, Twitter, $ip, Site, aktif, ontime } = config
+const { A187, tanggal, waktu, instagram, whatsapp, youtube, nomer, Telegram, Twitter, Site, aktif, ontime } = config
 
 const
 {
