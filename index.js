@@ -33,7 +33,7 @@ const config = {
     
 
 
-const { A187, tanggal, waktu, instagram, whatsapp, youtube, nomer, Telegram, Twitter, Site, aktif, ontime } = config
+const { tanggal, waktu, instagram, whatsapp, youtube, nomer, Telegram, Twitter, Site, aktif, ontime } = config
 
 const
 {
